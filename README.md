@@ -64,7 +64,7 @@ MIT License © 2025 **Tarek Halloum**
 
 ---
 
-## 🔗 Related Repositories
+## Related Repositories
 
 * **[HandOver – React Native (Full Platform)](https://github.com/TarekHalloum/HandOver-ReactNative.git)**
 * **[HandOver – Android (Car Service)](https://github.com/TarekHalloum/HandOver-Android-CarService.git)**
