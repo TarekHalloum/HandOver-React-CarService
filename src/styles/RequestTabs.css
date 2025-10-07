@@ -1,0 +1,38 @@
+.dashboard-tabs {
+  background-color: #FFFFFF; /* Container background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  background-color: #EFE7DC; /* Navbar/Footer color */
+  border: none;
+  border-radius: 4px;
+  color: #3E575D;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.tab:hover {
+  background-color: #FAF9F6; /* Hover color */
+}
+
+.tab.active {
+  background-color: #3E575D;
+  color: #FFFFFF;
+}
+
+.tab-contents {
+  padding: 10px;
+  background-color: #FAF9F6;
+  border-radius: 6px;
+}

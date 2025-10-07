@@ -1,0 +1,87 @@
+.rejected-requests-container {
+  background-color: #FAF9F6; /* background color */
+  padding: 40px 20px;
+  border-radius: 8px;
+  color: #3E575D;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  background-color: #FFFFFF; /* white container */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(62, 87, 93, 0.1);
+}
+
+.rejected-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rejected-table th,
+.rejected-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #EFE7DC;
+}
+
+.rejected-table thead {
+  background-color: #EFE7DC;
+}
+
+.customer-info {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-circle {
+  width: 32px;
+  height: 32px;
+  background-color: #FFD6D6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #3E575D;
+  margin-right: 10px;
+}
+
+.customer-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.customer-contact {
+  font-size: 12px;
+  color: #7A7A7A;
+  margin: 0;
+}
+
+.details-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  background-color: transparent;
+  border: 1px solid #3E575D;
+  color: #3E575D;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.details-button:hover {
+  background-color: #FAF9F6; /* hover effect */
+}
+
+.details-button .icon {
+  margin-right: 6px;
+}
+
+.no-requests {
+  text-align: center;
+  padding: 40px;
+  color: #7A7A7A;
+  font-size: 16px;
+}

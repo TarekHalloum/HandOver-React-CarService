@@ -1,0 +1,13 @@
+.repairer-dashboard {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+.repairer-dashboard input[type="text"] {
+  padding: 0.5rem;
+  width: 300px;
+  margin-bottom: 1rem;
+}
+.repairer-dashboard button {
+  margin-right: 1rem;
+  padding: 0.3rem 0.8rem;
+}

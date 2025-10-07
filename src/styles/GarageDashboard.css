@@ -1,0 +1,202 @@
+/* Main layout */
+.garage-dashboard {
+  padding: 100px 20px 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #FAF9F6;
+  color: #3E575D;
+}
+
+/* Title */
+.dashboard-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.dashboard-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #6b7b85;
+  font-style: italic;
+}
+
+/* Search bar */
+.search-wrapper {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 40px 10px 15px;
+  border: 2px solid #3E575D;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.search-icon-button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.search-icon-button img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Tab buttons */
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.tab-button {
+  background: transparent;
+  border: none;
+  color: #3E575D;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.tab-button:hover:not(.selected) {
+  background-color: #3E575D;
+  color: white;
+  border-radius: 20px;
+}
+
+.tab-button.selected {
+  background: transparent;
+  color: #3E575D;
+  font-weight: 700;
+  border: none;
+  cursor: default;
+}
+
+/* Request list */
+.request-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.request-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  position: relative;
+}
+
+/* Header with status */
+.request-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/* Status badge */
+.status-label {
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  border-radius: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-label.pending {
+  background-color: #ffdd57;
+  color: #5c4400;
+}
+
+.status-label.accepted {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+.status-label.declined {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+/* Toggle button */
+.toggle-details-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-details-btn img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.toggle-details-btn img:hover {
+  opacity: 1;
+}
+
+/* Accept/Reject buttons */
+.action-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.btn-accept {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-reject {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-accept:hover {
+  background-color: #218838;
+}
+
+.btn-reject:hover {
+  background-color: #c82333;
+}
+
+/* Empty state */
+.empty-message {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+  margin-top: 40px;
+}

@@ -1,0 +1,19 @@
+.floating-scan-button {
+    position: fixed;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+    z-index: 1000;
+  }
+  
+  .scan-icon {
+    width: 70px; 
+    height: 70px;
+    cursor: pointer; 
+    transition: transform 0.2s ease;
+  }
+  
+  .scan-icon:hover {
+    transform: scale(1.1); 
+  }
+  

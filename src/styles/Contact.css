@@ -1,0 +1,87 @@
+/* Page layout */
+.contact-page {
+  min-height: calc(100vh - 160px); /* Adjust for navbar + footer height */
+  background-color: #FAF9F6;
+  color: #3E575D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20px; /* Equal spacing above and below */
+  box-sizing: border-box;
+}
+
+/* Container for form or thank you message */
+.form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Header */
+.form-container h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Input fields */
+.form-control {
+  border: 2px solid #3E575D;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #2d4a50;
+}
+
+/* Submit button */
+.btn {
+  background-color: #3E575D;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2d4a50;
+}
+
+/* ✅ Thank you message styling */
+.thank-you-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.big-check {
+  width: 80px;
+  height: 80px;
+}
+
+.thank-you-message h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #3E575D;
+  margin: 0;
+}
+
+.thank-you-message p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+}

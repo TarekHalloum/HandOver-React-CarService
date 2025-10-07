@@ -1,0 +1,95 @@
+.garage-sidebar {
+  width: 16rem;
+  background-color: #3E575D;
+  color: white;
+  min-height: 100vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.sidebar-header {
+  margin-bottom: 2.5rem;
+  padding: 0 0.5rem;
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.sidebar-subtitle {
+  font-size: 0.875rem;
+  color: #EFE7DC;
+  margin-top: 0.25rem;
+}
+
+.sidebar-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.sidebar-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.sidebar-nav-item:hover {
+  background-color: #2E4146;
+}
+
+.sidebar-nav-item.active {
+  background-color: #2E4146;
+}
+
+.sidebar-badge {
+  margin-left: auto;
+  background-color: #FAF9F6;
+  color: #3E575D;
+  font-size: 0.75rem;
+  border-radius: 9999px;
+  padding: 0.25rem 0.5rem;
+}
+
+.sidebar-footer {
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+  right: 1rem;
+}
+
+.sidebar-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+.sidebar-avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  background-color: #2E4146;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-name {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.sidebar-role {
+  font-size: 0.75rem;
+  color: #EFE7DC;
+}
