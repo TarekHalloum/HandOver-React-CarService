@@ -52,13 +52,13 @@ The application will be available at:
 
 ---
 
-## 📦 Large Files
+## Large Files
 
 Model weights, video demos, and archives are **excluded** from this repository.
 
 ---
 
-## 📜 License
+## License
 
 MIT License © 2025 **Tarek Halloum**
 
@@ -66,5 +66,5 @@ MIT License © 2025 **Tarek Halloum**
 
 ## 🔗 Related Repositories
 
-* **[HandOver – React Native (Full Platform)]()**
-* **[HandOver – Android (Car Service)]()**
+* **[HandOver – React Native (Full Platform)](https://github.com/TarekHalloum/HandOver-ReactNative.git)**
+* **[HandOver – Android (Car Service)](https://github.com/TarekHalloum/HandOver-Android.git)**
